@@ -107,3 +107,6 @@ Computer Engineer | Linux & Python Enthusiast
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+
+## Releases
+- [Version 1.0](https://github.com/codebyperfect/djinit/releases/tag/v1.0.0)
