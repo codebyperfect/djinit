@@ -1,4 +1,4 @@
-# ⚙️ djinit — Django Project Initializer & Server Manager
+# ⚙️ djinit — Django CLI Project Initializer & Server Manager
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Made with ❤️ by codebyperfect](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20codebyperfect-001f3f)
@@ -34,17 +34,21 @@ djinit/
 
 ---
 ## 💡 Usage Instructions
+
+### 1. 🔧 Create a New Django Project
 - Prompts for project and app names
 - Sets up virtual environment
 - Installs Django
 - Initializes project and app
 - Optionally runs server on port 8000
 
-### 1. 🔧 Create a New Django Project
+**Run the script**
 
 ```bash
 bash build_project.sh
-
+```
+- Enter project name & project module name on prompt
+```
 📦 Enter your Django project name:
 project1
 ✅ Project Root Created!
@@ -58,9 +62,19 @@ app1
 ---
 
 ### 2. 🚀 Start Server from Existing Project
+- Lists all available project folders
+- Prompts for folder name
+- Kills any existing process on port 8000
+- Starts the Django development server
+- Waits for the server to fully start
+- Opens the app in default browser
 
+**Run the script**
 ```bash
 bash on_server.sh
+```
+- Enter project name on prompt
+```
 📦 Enter Project name you want to start the server with: project1
 ⚠️ Port 8000 already in use. Killing PID: 16733
 ✅ Old server stopped.
@@ -69,18 +83,14 @@ bash on_server.sh
 🌐 Check Browser with Link: http://localhost:8000
 
 ```
-- Lists all available project folders
-- Prompts for folder name
-- Kills any existing process on port 8000
-- Starts the Django development server
-- Waits for the server to fully start
-- Opens the app in default browser
 
 ### 3. ⛔ Stop the Running Server
+- Finds and kills Django process on port 8000
+
 ```bash
 bash stop_server.sh
 ```
-- Finds and kills Django process on port 8000
+
 
 ### ✅ Requirements
 Python 3.6+
@@ -97,4 +107,3 @@ Computer Engineer | Linux & Python Enthusiast
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
-3. ⛔ Stop the Running Server
