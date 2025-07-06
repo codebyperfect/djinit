@@ -21,7 +21,7 @@ django-admin startproject config_files .
 # Creating template folder & landing page
 # Purpose: It’s the central controller of your whole project.
 mkdir -p templates
-touch templates/landing.html
+touch templates/index.html
 #config_files/
 #├── __init__.py            # Marks this directory as a Python package
 #├── asgi.py                # ASGI entry point (for async servers)
