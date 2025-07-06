@@ -44,6 +44,7 @@ djinit/
 
 ```bash
 bash build_project.sh
+
 📦 Enter your Django project name:
 project1
 ✅ Project Root Created!
@@ -56,9 +57,17 @@ app1
 ```
 ---
 
-2. 🚀 Start Server from Existing Project
-``bash
-start_server.sh
+### 2. 🚀 Start Server from Existing Project
+
+```bash
+bash on_server.sh
+📦 Enter Project name you want to start the server with: project1
+⚠️ Port 8000 already in use. Killing PID: 16733
+✅ Old server stopped.
+⏳ Waiting for server to start...
+✅ Server started for project p1 in background with PID: 17537
+🌐 Check Browser with Link: http://localhost:8000
+
 ```
 - Lists all available project folders
 - Prompts for folder name
@@ -66,3 +75,26 @@ start_server.sh
 - Starts the Django development server
 - Waits for the server to fully start
 - Opens the app in default browser
+
+### 3. ⛔ Stop the Running Server
+```bash
+bash stop_server.sh
+```
+- Finds and kills Django process on port 8000
+
+### ✅ Requirements
+Python 3.6+
+Bash terminal
+Linux environment (tested on Rocky Linux, Ubuntu) lsof, nc, xdg-open must be available (default in most distros)
+
+# Author
+## Md Nabil Hossain
+Computer Engineer | Linux & Python Enthusiast
+- Email: mdnabil.cse@gmail.com
+- GitHub: [codebyperfect](https://github.com/codebyperfect)
+- Portfolio: Coming Soon
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+3. ⛔ Stop the Running Server
