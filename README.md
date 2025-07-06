@@ -1,5 +1,5 @@
 # ⚙️ djinit — Django CLI Project Initializer & Server Manager
-![Python](https://img.shields.io/badge/python-3.6%2B-blue)
+![Bash](https://img.shields.io/badge/bash-shell%20script-green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Made with ❤️ by codebyperfect](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20codebyperfect-001f3f)
 
