@@ -93,9 +93,9 @@ bash stop_server.sh
 
 
 ### ✅ Requirements
-Python 3.6+
-Bash terminal
-Linux environment (tested on Rocky Linux, Ubuntu) lsof, nc, xdg-open must be available (default in most distros)
+- Python 3.6+
+- Bash terminal
+- Linux environment (tested on Rocky Linux, Ubuntu) lsof, nc, xdg-open must be available (default in most distros)
 
 # Author
 ## Md Nabil Hossain
