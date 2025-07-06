@@ -56,3 +56,13 @@ app1
 ```
 ---
 
+2. 🚀 Start Server from Existing Project
+``bash
+start_server.sh
+```
+- Lists all available project folders
+- Prompts for folder name
+- Kills any existing process on port 8000
+- Starts the Django development server
+- Waits for the server to fully start
+- Opens the app in default browser
