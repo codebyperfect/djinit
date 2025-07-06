@@ -27,8 +27,8 @@
 ```
 djinit/
 ├── build_project.sh # Initializes a new Django project
-├── start_server.sh # Starts the development server (background)
-├── stop_server.sh # Stops the server running on port 8000
+├── on_server.sh # Starts the development server (background)
+├── off_server.sh # Stops the server running on port 8000
 └── README.md # Documentation
 ```
 
