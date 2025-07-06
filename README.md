@@ -88,7 +88,7 @@ bash on_server.sh
 - Finds and kills Django process on port 8000
 
 ```bash
-bash stop_server.sh
+bash off_server.sh
 ```
 
 
